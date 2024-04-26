@@ -78,7 +78,7 @@ c содержимым:
 >Description=Backup Vivo
 >
 >[Mount]
->What=/home/backup/file100
+>What=/home/backup/file100\
 >Where=/mnt/vivobackup
 >
 >[Install]
@@ -93,7 +93,7 @@ c содержимым:
 `systemctl start mnt-vivobackup.mount`
 
 Перезагружаемся, проверяем\
-`df -hT`
+`df -hT`\
 __/dev/loop1     ext2    99G   24K   94G   1% /mnt/vivobackup__
 
 Убедившись, что все работает нормально, добавим точку монтирования в автозагрузку:\
@@ -110,9 +110,9 @@ __/dev/loop1     ext2    99G   24K   94G   1% /mnt/vivobackup__
 
 Размонтировать можно так:
 
-`umount share` 
+`umount backup_share` 
 или\
-`fusermount -u /home/aflw/share`
+`fusermount -u /mnt/backup_share`
 
 #### Запускаем резервное копирование
 
