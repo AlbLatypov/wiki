@@ -1,4 +1,4 @@
-# sfsd
+# How To Edit the Sudoers File
 
 </div>
 <h2 id="how-to-obtain-root-privileges"><a href="#how-to-obtain-root-privileges" onclick="navigator.clipboard.writeText(this.href);">How To Obtain Root Privileges</a><a class="hash-anchor" href="#how-to-obtain-root-privileges" aria-hidden="true" onclick="navigator.clipboard.writeText(this.href);"></a></h2>
