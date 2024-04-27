@@ -5,6 +5,7 @@
 - [Организация резервного копирования локальных файлов в домашней сети](/Linux/backup_tar.md)
 - [Создание unit для mount](/Linux/systemd.unit.md)
 - [VIM](/Linux/vim.md)
+- [tldr — альтернатива man - Too long; didn't read](https://habr.com/ru/companies/flant/articles/343702/)
 
 
 
